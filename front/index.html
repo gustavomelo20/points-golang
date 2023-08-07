@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mt-5 mb-3">
+          <div class="col-md-4">
+            <p>Saldo</p>
+            <div
+              style="
+                background-color: black;
+                padding: 15px;
+                border-radius: 15px;
+              "
+            >
+              <h2 id="saldo" class="text-center" style="color: antiquewhite">
+                Carregando...
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <table class="table table-striped-columns text-center">
+            <thead>
+              <tr>
+                <th scope="col">Valor</th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Documento</th>
+              </tr>
+            </thead>
+            <tbody id="extrato"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
